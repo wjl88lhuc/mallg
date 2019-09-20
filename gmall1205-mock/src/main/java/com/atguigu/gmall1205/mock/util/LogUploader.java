@@ -13,8 +13,8 @@ public class LogUploader {
         try{
             //不同的日志类型对应不同的URL
 
-            URL url  =new URL("http://192.168.1.101:8090/log");
-
+//            URL url  =new URL("http://192.168.1.101:8090/log");
+            URL url  =new URL("http://dsjrz4:8091/log");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             //设置请求方式为post
             conn.setRequestMethod("POST");
